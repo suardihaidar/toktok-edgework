@@ -2,16 +2,18 @@ import React from "react";
 
 function Navbar() {
   const items = [
-    { name: "Home", path: "/" },
+    { name: "Home", path: "#home" },
     { name: "About", path: "#about" },
     { name: "Services", path: "#services" },
     { name: "Contact", path: "#contact" },
   ];
 
+  const mainUrl = "/toktok-edgework/";
+
   return (
     <nav className="bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded shadow-sm border-b dark:bg-gray-900">
       <div className="container flex flex-wrap items-center justify-between mx-auto">
-        <a href="/" className="flex items-center">
+        <a href={mainUrl} className="flex items-center">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
