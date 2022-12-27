@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/toktok-edgework/static/css/main.f701eb14.css",
-    "main.js": "/toktok-edgework/static/js/main.18ac95a4.js",
+    "main.css": "/toktok-edgework/static/css/main.6e5319ba.css",
+    "main.js": "/toktok-edgework/static/js/main.ea7bc3fd.js",
     "static/js/787.ef186433.chunk.js": "/toktok-edgework/static/js/787.ef186433.chunk.js",
     "index.html": "/toktok-edgework/index.html",
-    "main.f701eb14.css.map": "/toktok-edgework/static/css/main.f701eb14.css.map",
-    "main.18ac95a4.js.map": "/toktok-edgework/static/js/main.18ac95a4.js.map",
+    "main.6e5319ba.css.map": "/toktok-edgework/static/css/main.6e5319ba.css.map",
+    "main.ea7bc3fd.js.map": "/toktok-edgework/static/js/main.ea7bc3fd.js.map",
     "787.ef186433.chunk.js.map": "/toktok-edgework/static/js/787.ef186433.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f701eb14.css",
-    "static/js/main.18ac95a4.js"
+    "static/css/main.6e5319ba.css",
+    "static/js/main.ea7bc3fd.js"
   ]
 }
