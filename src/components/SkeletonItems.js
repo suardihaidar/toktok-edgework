@@ -7,8 +7,9 @@ function SkeletonItems() {
     <>
       {items.map((item, idx) => (
         <div
-          className="w-full sm:w-1/2 md:w-1/2 xl:w-1/4 p-4 animate-pulse"
+          className="w-full sm:w-1/2 md:w-1/2 lg:w-1/3 xl:w-1/4 p-4 animate-pulse"
           key={idx}
+          data-testid="skeleton-item"
         >
           <div className="cursor-pointer block bg-white shadow-md hover:shadow-xl rounded-lg">
             <div className="flex justify-center items-center mb-4 h-48 bg-gray-300 rounded dark:bg-gray-700">
@@ -23,7 +24,7 @@ function SkeletonItems() {
               </svg>
             </div>
             <div className="p-4">
-              <div className="h-2.5 bg-gray-200 rounded-full dark:bg-gray-700 w-48 mb-4"></div>
+              <div className="h-2.5 bg-gray-200 rounded-full dark:bg-gray-700 max-w-[100px] mb-4"></div>
               <div className="h-2 bg-gray-200 rounded-full dark:bg-gray-700 mb-2.5"></div>
               <div className="h-2 bg-gray-200 rounded-full dark:bg-gray-700"></div>
             </div>

@@ -1,6 +1,8 @@
-import { render } from "@testing-library/react";
+import { render, screen } from "@testing-library/react";
 import SkeletonCategories from "./SkeletonCategories";
 
-test("render SkeletonCategories component", () => {
+test("render SkeletonCategories component", async () => {
   render(<SkeletonCategories />);
+  const testId = await screen.findAllByTestId("skeleton-categories");
+  expect(testId).toBeDefined();
 });
